@@ -16,7 +16,11 @@ pip3 install chatterbot-corpus==1.1.2
 
 django-admin startproject cb
 
-cd cb/cb
+cd cb
+
+git clone https://github.com/NeelimaBalaji/sili
+
+cd cb
 
 nano settings.py                                            #ifconfig (allowed host['IP'])    #install apps['sili']
 
@@ -24,7 +28,7 @@ nano urls.py                                                #add=from django.con
 
 cd ..
 
-git clone https://github.com/NeelimaBalaji/sili
+
 
 python3 manage.py migrate
 
