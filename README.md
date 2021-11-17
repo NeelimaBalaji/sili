@@ -14,13 +14,13 @@ pip3 install chatterbot==0.8.7
 
 pip3 install chatterbot-corpus==1.1.2
 
-django-admin startproject cb
+django-admin startproject nb
 
-cd cb
+cd nb
 
 git clone https://github.com/NeelimaBalaji/sili
 
-cd cb
+cd nb
 
 nano settings.py                                            #ifconfig (allowed host['IP'])    #install apps['sili']
 
